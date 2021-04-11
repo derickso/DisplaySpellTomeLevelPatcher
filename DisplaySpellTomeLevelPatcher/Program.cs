@@ -34,7 +34,7 @@ namespace DisplaySpellTomeLevelPatcher
 
         public static string GenerateSpellTomeName(string spellTomeName, string level)
         {
-            return spellTomeName.ToString().Replace("Spell Tome:", $"Spell Tome ({level}):");
+            return spellTomeName.ToString().Replace("Spell Tome:", $"{level} Spell Tome:");
         }
 
         public static string GenerateScrollName(string scrollName, string level)
